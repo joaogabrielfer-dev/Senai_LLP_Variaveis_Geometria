@@ -6,15 +6,15 @@ public class Main {
         
         int base, altura;
 
-        System.out.println("Digite o tamanho da base de seu triangulo: ");
+        System.out.println("Digite o tamanho da base em cm de seu triangulo: ");
         base = ler.nextInt();
 
-        System.out.println("Digite a altura do seu triangulo: ");
+        System.out.println("Digite a altura em cm do seu triangulo: ");
         altura = ler.nextInt();
 
         double area = (base * altura) / 2.0;
 
-        System.out.printf("A area de seu triangulo e: %.2f ", area);
+        System.out.printf("A area de seu triangulo e: %.2f cm²", area);
 
 
         ler.close();
